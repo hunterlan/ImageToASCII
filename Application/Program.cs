@@ -17,6 +17,8 @@ namespace Application
             {
                 Help();
             }
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
 
         private static void AutomaticMode(string[] args)
